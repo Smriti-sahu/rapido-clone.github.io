@@ -1,0 +1,129 @@
+#know-better{
+    margin-top: 8%;
+    display: flex;
+}   
+
+#left-section{
+    /* border: 2px solid red; */
+    /* background-color: aqua; */
+    /* background-color: rgba(255, 255, 210, 0.541); */
+    background-color: rgba(255, 255, 169, 0.425);
+    width: 800px;
+    height: 600px;
+    border-radius: 30%;
+    transform: rotate(-30deg);
+    margin-left: -10%;
+}   
+
+#left-section img{
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 50%;
+    transform: rotate(30deg);
+    top: -10%;
+}
+#left-section img+img{
+    position: absolute;
+    left: 40%;
+    top: 18%;
+    border-radius: 80px 80px 0px 80px;
+}
+
+
+#left-section button{
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: rotate(30deg);
+    background-color: #fff;
+    border: none;
+    border-radius: 50px 50px 50px 0px;
+}
+
+#left-section img+img+button+img{
+    position: absolute;
+    left: 45%;
+    top: 62%;
+    border-radius: 0px 80px 80px 80px;
+}
+#left-section p
+{
+    background-color:#f9c953;
+   position: absolute;
+   top: 80%;
+   left: 28%;
+    height: 50px;
+    width: 200px;
+    transform: rotate(-60deg);
+    border-radius: 50px 50px 0px 50px;
+}
+
+
+#right-section {
+    width: 50%;
+    /* border: 2px solid red; */
+    margin-left: 2%;
+    margin-top: 3%;
+
+}
+#right-section h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+#right-section h1::first-letter{
+    border-bottom: 5px solid #f9c953;
+}
+#right-section p{
+    /* border: 2px solid red; */
+    width: 70%;
+    font-size: 22px;
+    margin-top: 5%;
+    font-weight: lighter;
+    line-height: 40px;
+}
+
+#right-section button{
+    background-color: #f9c953;
+    border: none;
+    padding: 2%;
+    height: 55px;
+    width: 220px;
+    border-radius: 50px 50px 50px 0px;
+    margin-top: 5%;
+    font-weight: 600;
+}
+
+
+#who-section{
+    display: none;
+    /* border: 2px solid red; */
+
+}
+#who-section>aside{
+    text-align: center;
+    /* border: 2px solid red; */
+
+}
+#who-section img{
+    border-radius: 80px 80px 0px 80px;
+    height: 200px;
+    /* margin-left: 15%; */
+    
+}
+#who-section button{
+    background-color: #f9c953;
+    height: 50px;
+    width: 80px;
+    border-radius: 50px 50px 50px 0px;
+    border: none;
+}
+#who-section img+button+br+button{
+    margin-left: 30%;
+}
+#who-section img+button+br+button+img{
+    border-radius: 0px 80px 80px 80px;
+    /* margin-left:55% ; */
+    margin-left: 0%;
+}

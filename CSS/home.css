@@ -1,0 +1,109 @@
+
+#home-section{
+    display: flex;
+}
+.text-sec{
+    /* border: 2px solid red; */
+    width: 36%;
+    margin-left: 5%;
+}
+#home-section div h1{
+    font-size: 55px;
+    font-weight: 300;
+    color: #313131;
+    padding-top: 25%;
+    padding-left: 5%;
+}
+#home-section div h5{
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
+    color: #4B4B4B;
+    width: 85%;
+    padding-top: 2%;
+    padding-left: 5%;
+
+
+}
+.yellow-container{
+    background-color: #f9c953;
+    /* border: 2px solid ; */
+    width: 650px;
+    height: 800px;
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    border-radius: 0% 0% 50% 50% ;
+    transform: rotate(50deg);
+}
+.yellow-container img{
+    height: 300px;
+}
+
+
+
+#img1{
+    height: 600px;
+    /* transform: rotate(-50deg); */
+    z-index:  1;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+.text-sec aside{
+     padding-left: 0%;
+     margin-left: 0%;
+     /* border: 2px solid red; */
+     display: flex;
+     justify-content: space-around;
+}
+.text-sec aside button{
+    background-color: #f9c953;
+    color: #000;
+    border: none;
+    padding: 3%;
+    border-radius: 40px 40px 45px 0px;
+    width: 220px;
+    font-weight: 600;
+}
+.text-sec aside button+button{
+    background-color: #000;
+    color: #fff;
+    /* margin-left: 5%; */
+    border-radius: 40px 45px 0px 40px;
+
+}
+
+
+/* ---------------------------------------------------------------- */
+
+
+
+#safety-section{
+    /* border: 2px solid red; */
+    width: 92%;
+    margin: auto;
+    margin-top: 15%;
+    position: relative;
+
+}
+
+#safety-section button{
+    background-color: #f9c953;
+    color: #000;
+    border: none;
+    padding: 1%;
+    border-radius: 40px;
+    width: 150px;
+    font-weight: 600;
+    position: absolute;
+    /* bottom: 10%; */
+    left: 4%;
+    top: 75%;
+}
+/* -------------------- */
+
+#bike-img{
+    background-color: #f9c953;
+    display: none;
+}

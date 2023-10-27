@@ -1,0 +1,236 @@
+
+@media (max-width : 1024px) and (min-width : 299px){
+
+    .btn{
+        display: none !important;
+    }
+    /* .btn1{
+        display: block;
+    } */
+
+    header nav{
+        width: 100%;
+        margin: auto;
+    }
+    .navbar-collapse{
+        margin-left: 0%;
+        padding-left: 2%;
+    }
+    /*------------------------------------------------------------------------  */
+
+    .yellow-container{
+        display: none;
+    }
+    #img1{
+        display: none;
+    }
+    #home-section div h1{
+        font-size: 30px;
+        padding-top: 10%;
+
+    }
+    .text-sec{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .text-sec aside button{
+        width: 180px !important;
+        font-size: 15px;
+    }
+
+    /* ------------------------------- */
+
+    #safety-section button{
+        display: none;
+    }
+    #bike-img{
+        display: block;
+    }
+
+    /* ----------------------------------------------- */
+
+
+    #left-section{
+        display: none;
+    }
+
+    #right-section{
+        /* border: 2px solid red; */
+        width: 100%;
+        text-align: center;
+    }
+
+    #right-section p{
+        font-size: 15px;
+        width: 75%;
+        line-height: 25px;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    #right-section h1::first-letter{
+        border: none;
+    }
+
+
+    #who-section{
+        display: block;
+    }
+
+
+    /* ----------------------------------- */
+
+    #impact main{
+        background: none;
+        border-radius: 0px;
+        height: 450px;
+    }
+
+    #impact main h2{
+        width: 100%;
+        font-size: 17px;
+        line-height: 25px;
+    }
+    #impact aside div img{
+        height: 40px;
+    }
+    #impact aside div label{
+        font-size: 15px;
+    }
+    #impact aside div span{
+        font-size: 13px;
+    } 
+    #impact aside div{
+        /* border: 2px solid red; */
+        width: 120px;
+        height: 120px;
+    }
+    #impact aside{
+        flex-wrap:wrap;    
+        width: 100%;
+        margin-top: 8%;
+    }
+
+
+/* ---------------------------------------------------------- */
+
+#for-you h1{
+    font-size: 30px;
+    font-weight: 600;
+    /* letter-spacing: 1px; */
+}
+
+#for-you h2 button{
+    height: 50px;
+    width: 170px;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+    .img_box img{
+        height: 250px;
+        width: 310px;
+        border-radius: 20px;
+    }
+    
+    #review main img{
+        display: none;
+    }
+    #review>img{
+        display: none;
+    }
+    #review main h1{
+        font-size: 15px;
+        width: 100%;
+        /* border: 2px solid red; */
+        text-align: right;
+        display: none;
+    }
+    #review main h2 button{
+        height: 40px;
+      width: 120px;
+    }
+    #review main h2{
+        text-align: center;
+        padding-right: 0%;
+        padding-top: 0%;
+    }
+    #review{
+        width: 90%;
+        height: 400px;
+        margin-top: 8% !important;
+    }
+    #straight{
+        display: block;
+        font-size: 22px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    
+    /* ---------------------------------------------------- */
+
+    
+    #right-section-b{
+        display: none;
+    }
+
+    #left-section-b{
+        /* border: 2px solid red; */
+        width: 100%;
+        text-align: center;
+    }
+
+    #left-section-b p{
+        font-size: 15px;
+        width: 100%;
+        line-height: 25px;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    #left-section-b h1::first-letter{
+        border: none;
+    }
+
+
+    #who-section-b{
+        display: block;
+    }
+
+
+    /* ----------------------------------------------- */
+
+    footer main{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    footer{
+        padding: 2% 5% 3% 0%;
+    }
+
+    .links{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        font-size: 13px;
+    }
+
+    .links{
+        line-height: 20px;
+    }
+    #social{
+        /* border: 2px solid red; */
+        width: 60%;
+        margin: auto;
+    }
+    footer p{
+        font-size: 12px;
+    }
+
+
+}

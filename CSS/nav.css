@@ -1,0 +1,73 @@
+
+@import url(./home.css);
+@import url(./know.css);
+@import url(./impact.css);
+@import url(./review.css);
+@import url(./business.css);
+@import url(./footer.css);
+@import url(./mobile.css);
+@import url(./tablet.css);
+
+body{
+    font-family: "Poppins", sans-serif !important;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #fff;
+    position: sticky;
+    top: 0%;
+    z-index: 1111111;
+}
+
+header nav{
+    width: 85%;
+    margin: auto;
+    /* border: 2px solid rgb(19, 18, 18); */
+}
+
+
+.navbar-collapse{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-left: 20%;
+}
+
+.navbar-nav , .nav-item{
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000 !important;
+    gap: 20px;
+}
+
+.btn{
+    /* display: block; */
+    background-color: #000 !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    border-radius: 20px 20px 0px 20px !important;
+}
+.active{
+    border-bottom:3px solid #000;
+}
+
+.download{
+    /* border: 2px solid red; */
+    width: 200px;
+}
+.navbar-toggler-icon{
+    height: 50px !important;
+    width: 25px !important;
+    color: yellow !important;
+}
+.navbar-toggler{
+    border: none;
+}
+
+.btn1{
+    display: none;
+}

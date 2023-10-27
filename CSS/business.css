@@ -1,0 +1,126 @@
+#business{
+    margin-top: 15%;
+    display: flex;
+}   
+
+#right-section-b{
+    /* border: 2px solid red; */
+    /* background-color: aqua; */
+    /* background-color: rgba(255, 255, 210, 0.541); */
+    background-color: rgba(255, 255, 169, 0.425);
+    width: 800px;
+    height: 600px;
+    border-radius: 30%;
+    transform: rotate(30deg);
+    margin-left: -8%;
+    margin-right: -5%;
+}   
+
+#right-section-b img{
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 5%;
+    transform: rotate(-30deg);
+    top: 15%;
+    border-radius: 100px 100px 0px 100px;
+
+}
+
+
+#right-section-b button{
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    transform: rotate(-30deg);
+    background-color: #fff;
+    border: none;
+    border-radius: 50px 50px 50px 0px;
+}
+
+#right-section-b img+button+img{
+    position: absolute;
+    left: 45%;
+    top: 20%;
+    border-radius: 0px 150px 150px 150px;
+}
+#right-section-b p
+{
+    background-color:#f9c953;
+   position: absolute;
+   top: 75%;
+   left: 35%;
+    height: 50px;
+    width: 200px;
+    transform: rotate(60deg);
+    border-radius: 0px 100px 100px 100px;
+}
+
+
+#left-section-b {
+    width: 50%;
+    /* border: 2px solid red; */
+    margin-left: 8%;
+    margin-top: 3%;
+
+}
+#left-section-b h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+#left-section-b h1::first-letter{
+    border-bottom: 5px solid #f9c953;
+}
+#left-section-b p{
+    /* border: 2px solid red; */
+    width: 70%;
+    font-size: 22px;
+    margin-top: 5%;
+    font-weight: lighter;
+    line-height: 40px;
+}
+
+#left-section-b button{
+    background-color: #f9c953;
+    border: none;
+    padding: 2%;
+    height: 55px;
+    width: 220px;
+    border-radius: 50px 50px 50px 0px;
+    margin-top: 5%;
+    font-weight: 600;
+}
+
+
+#who-section-b{
+    display: none;
+    /* border: 2px solid red; */
+
+}
+#who-section-b>aside{
+    text-align: center;
+    /* border: 2px solid red; */
+
+}
+#who-section-b img{
+    border-radius: 80px 80px 0px 80px;
+    height: 200px;
+    /* margin-left: 15%; */
+    
+}
+#who-section-b button{
+    background-color: #f9c953;
+    height: 50px;
+    width: 80px;
+    border-radius: 50px 50px 50px 0px;
+    border: none;
+}
+#who-section-b img+button+br+button{
+    margin-left: 30%;
+}
+#who-section-b img+button+br+button+img{
+    border-radius: 0px 80px 80px 80px;
+    /* margin-left:55% ; */
+    margin-left: 0%;
+}
